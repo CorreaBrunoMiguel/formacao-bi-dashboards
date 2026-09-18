@@ -14,7 +14,7 @@ current_cycle:
 
 current_module: M00
 current_unit: M00-U00
-status: ready_to_start
+status: in_progress
 
 last_completed:
   - CUR-01
@@ -24,12 +24,12 @@ last_completed:
   - GOV-01
   - GOV-02
 
-next_action: Abrir um Work exclusivo do curso e executar o protocolo de abertura do M00-U00.
+next_action: Sincronizar a branch local e verificar a compreensão final do diagnóstico antes da decisão sobre o M00-U00.
 blockers: []
 
 git:
   default_branch: main
-  working_branch: null
-  last_commit: a9de70a10f667bc5782dc8c95b321c3faa7725c1
+  working_branch: docs/m00-u00-diagnostico
+  last_commit: 06f9b1b4342df90a3d0b0261a94491765c372ebb
 
 updated_at: 2026-09-18
