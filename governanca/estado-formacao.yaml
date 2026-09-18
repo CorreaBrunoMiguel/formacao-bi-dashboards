@@ -1,0 +1,34 @@
+schema_version: 1.0.0
+governance_version: 1.0.0
+curriculum_version: 1.0.0
+
+course:
+  id: formacao-bi-dashboards
+  title: Formação em Business Intelligence e Dashboards
+  repository: CorreaBrunoMiguel/formacao-bi-dashboards
+  visibility: public
+
+current_cycle:
+  id: C01
+  title: Fundamentos e dados
+
+current_module: M00
+current_unit: M00-U00
+status: governance_review
+
+last_completed:
+  - CUR-01
+  - CUR-02
+  - CUR-03
+  - CUR-04
+  - GOV-01
+
+next_action: Revisar e aprovar a implantação inicial da governança antes de iniciar o M00.
+blockers: []
+
+git:
+  default_branch: main
+  working_branch: docs/governanca-inicial
+  last_commit: null
+
+updated_at: 2026-09-18
