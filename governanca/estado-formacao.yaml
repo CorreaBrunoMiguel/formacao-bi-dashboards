@@ -13,7 +13,7 @@ current_cycle:
   title: Fundamentos e dados
 
 current_module: M00
-current_unit: M00-U00
+current_unit: M00-U01
 status: ready_to_start
 
 last_completed:
@@ -23,13 +23,14 @@ last_completed:
   - CUR-04
   - GOV-01
   - GOV-02
+  - M00-U00
 
-next_action: Abrir um Work exclusivo do curso e executar o protocolo de abertura do M00-U00.
+next_action: Executar o protocolo de abertura do M00-U01.
 blockers: []
 
 git:
   default_branch: main
   working_branch: null
-  last_commit: a9de70a10f667bc5782dc8c95b321c3faa7725c1
+  last_commit: 0f5bd532ceb93b40a8e8fd56deeeef9fdfb9e831
 
 updated_at: 2026-09-18
