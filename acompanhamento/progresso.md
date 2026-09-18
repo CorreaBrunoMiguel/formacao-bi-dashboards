@@ -10,7 +10,8 @@
 | CUR-04 | Especificação do M02 | Aprovado |
 | GOV-01 | Arquitetura de governança | Aprovado |
 | GOV-02 | Implantação do repositório oficial | Concluído |
-| M00 | Preparação e infraestrutura | Pronto para iniciar |
+| M00 | Preparação e infraestrutura | Em andamento |
+| M00-U00 | Diagnóstico técnico e requisitos | Em andamento |
 
 ## Registro inicial — 2026-09-18
 
@@ -25,3 +26,9 @@ O repositório público `CorreaBrunoMiguel/formacao-bi-dashboards` foi criado.
 A implantação inicial foi revisada e integrada pela PR #1. A branch de implantação foi removida após o merge.
 
 O GOV-02 está concluído. A formação está liberada para iniciar o M00-U00 em um Work exclusivo, seguindo `INICIAR-AQUI.md`.
+
+## Abertura do M00-U00 — 2026-09-18
+
+O clone local e o ambiente foram diagnosticados sem instalação ou alteração de serviços. Docker, Compose e PostgreSQL estão disponíveis. Foram registradas restrições de memória, ocupação da porta 5432 pelo PostgreSQL local e recursos Docker preexistentes.
+
+O diagnóstico factual está em `ambiente/diagnostico.md`. A unidade permanece em andamento para verificação final de compreensão e decisão de aprovação.
