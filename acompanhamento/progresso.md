@@ -12,7 +12,7 @@
 | GOV-02 | Implantação do repositório oficial | Concluído |
 | M00 | Preparação e infraestrutura | Em andamento |
 | M00-U00 | Diagnóstico técnico e requisitos | Aprovado |
-| M00-U01 | Arquitetura e funcionamento do ambiente | Pronto para iniciar |
+| M00-U01 | Arquitetura e funcionamento do ambiente | Em andamento |
 
 ## Registro inicial — 2026-09-18
 
@@ -39,3 +39,9 @@ O diagnóstico factual está em `ambiente/diagnostico.md`.
 Os requisitos foram classificados, as restrições foram registradas e nenhum bloqueio impeditivo foi identificado. A revisão formal está em `acompanhamento/revisoes/2026-09-18-m00-u00.md`.
 
 A M00-U00 foi aprovada. A formação está liberada para iniciar a M00-U01 após a integração do checkpoint no branch `main`.
+
+## Abertura do M00-U01 — 2026-09-18
+
+A unidade foi aberta com o bloco conceitual sobre host, Docker Engine, imagem e container. A primeira verificação guiada confirmou compreensão parcial e identificou a necessidade de consolidar o compartilhamento do kernel do host.
+
+Nenhuma alteração de infraestrutura foi realizada e a entrega acadêmica ainda não foi iniciada.
