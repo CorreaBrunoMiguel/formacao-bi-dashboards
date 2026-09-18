@@ -11,7 +11,8 @@
 | GOV-01 | Arquitetura de governança | Aprovado |
 | GOV-02 | Implantação do repositório oficial | Concluído |
 | M00 | Preparação e infraestrutura | Em andamento |
-| M00-U00 | Diagnóstico técnico e requisitos | Em andamento |
+| M00-U00 | Diagnóstico técnico e requisitos | Aprovado |
+| M00-U01 | Arquitetura e funcionamento do ambiente | Pronto para iniciar |
 
 ## Registro inicial — 2026-09-18
 
@@ -31,4 +32,10 @@ O GOV-02 está concluído. A formação está liberada para iniciar o M00-U00 em
 
 O clone local e o ambiente foram diagnosticados sem instalação ou alteração de serviços. Docker, Compose e PostgreSQL estão disponíveis. Foram registradas restrições de memória, ocupação da porta 5432 pelo PostgreSQL local e recursos Docker preexistentes.
 
-O diagnóstico factual está em `ambiente/diagnostico.md`. A unidade permanece em andamento para verificação final de compreensão e decisão de aprovação.
+O diagnóstico factual está em `ambiente/diagnostico.md`.
+
+## Conclusão do M00-U00 — 2026-09-18
+
+Os requisitos foram classificados, as restrições foram registradas e nenhum bloqueio impeditivo foi identificado. A revisão formal está em `acompanhamento/revisoes/2026-09-18-m00-u00.md`.
+
+A M00-U00 foi aprovada. A formação está liberada para iniciar a M00-U01 após a integração do checkpoint no branch `main`.
