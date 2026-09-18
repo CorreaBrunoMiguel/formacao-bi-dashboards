@@ -1,0 +1,26 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Ambiente e ferramentas
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dados, volumes e artefatos locais
+data/
+volumes/
+backups/
+*.log
+*.tmp
