@@ -14,7 +14,7 @@ current_cycle:
 
 current_module: M00
 current_unit: M00-U01
-status: ready_to_start
+status: in_progress
 
 last_completed:
   - CUR-01
@@ -25,12 +25,12 @@ last_completed:
   - GOV-02
   - M00-U00
 
-next_action: Executar o protocolo de abertura do M00-U01.
+next_action: Consolidar a relação entre host, kernel, imagem e container no primeiro bloco conceitual do M00-U01.
 blockers: []
 
 git:
   default_branch: main
-  working_branch: null
-  last_commit: 5470e86899c6882c267dff71b10fa376993e5739
+  working_branch: docs/m00-u01-arquitetura
+  last_commit: 7ebaad4db8e0be4187ba3989e97d44521f56577b
 
 updated_at: 2026-09-18
