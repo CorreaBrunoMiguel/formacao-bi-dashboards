@@ -26,8 +26,11 @@ evidências conceituais e práticas exigidas para a avaliação acadêmica.
 
 A amostra de `vmstat` apresentou atividade de swap-in e espera de I/O durante
 parte da coleta. O resultado indica pressão operacional possível, mas não permite
-concluir isoladamente que o ambiente seja inviável. O comportamento deverá ser
-reavaliado quando os serviços da formação estiverem em execução.
+concluir isoladamente que o ambiente seja inviável. Bruno também relatou
+lentidão em projetos anteriores que executavam aplicações Java com Docker. Essa
+evidência histórica reforça a classificação `pendente`, sem caracterizar
+bloqueio. O comportamento deverá ser reavaliado quando os serviços da formação
+estiverem em execução.
 
 ## Ferramentas e serviços
 
@@ -140,6 +143,6 @@ A coleta utilizou comandos de consulta, sem alteração de serviços ou dados:
 
 ## Situação da unidade
 
-O diagnóstico factual está consolidado e não há bloqueio técnico impeditivo para
-a continuidade. A M00-U00 permanece em andamento até a revisão das evidências de
-compreensão, a atualização dos registros operacionais e o checkpoint Git.
+O diagnóstico factual está consolidado, os requisitos foram classificados e não
+há bloqueio técnico impeditivo. As pendências registradas constituem entradas
+para as unidades posteriores e não impedem a conclusão da M00-U00.
